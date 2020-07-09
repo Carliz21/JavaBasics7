@@ -10,8 +10,10 @@ public class InstanceVariables {
 		System.out.println(name);
 
 		// we create an object or instanciate a class
-		InstanceVariables obj = new InstanceVariables();
-		System.out.println(obj.name);
+		InstanceVariables obj=new InstanceVariables();
+		obj.name="Jane";
+		System.out.println(obj.name);//Jane
+
 		
 		// would like to change value from Kristina to Castro--> changing value of local variable
 		name ="Castro";

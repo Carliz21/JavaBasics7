@@ -18,6 +18,11 @@ public class MethodsWithReturn {
 
 	// create a method that will accept an int value and return whether is even
 
+	private String convertToUpper(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	boolean isEven(int a) {
 		boolean even;
 		if (a % 2 == 0) {
@@ -48,9 +53,5 @@ public class MethodsWithReturn {
 	// create a method that will accept String value and returns that value all in
 	// uppercase
 
-	String convertToUpper(String value) {
-		return value.toUpperCase();
-
-	}
-
+	
 }
