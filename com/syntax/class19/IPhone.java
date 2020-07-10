@@ -30,8 +30,8 @@ public class IPhone {
 		
 	}
 	
-	// can instance method/non static access static members/variables
-	 void displayInfo1() { 
+	// can instance method/non static method access static members/variables
+	 void displayInfo1() { //instance works with static variables
 		System.out.println("iPhone belongs to brand " + brand + " and it has OS as " + OS 
 				+ " and all iPhones have touchscreen= " + touchScreen);	
 		}
