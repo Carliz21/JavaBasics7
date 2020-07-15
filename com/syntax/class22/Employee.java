@@ -2,15 +2,17 @@ package com.syntax.class22;
 
 public class Employee {
 	
-	static String company;
+	public static String company;
+	protected String fullName;
 	double salary;
+	private long ssn;
 	
-	void work () {
+	public void work () {
 		System.out.println("All employees work together to meet deadline");
 		
 	}
 	
-	void getPaid() {
+	 public void getPaid() {
 		System.out.println("The drive for all employees is to get paid");
 	}
 

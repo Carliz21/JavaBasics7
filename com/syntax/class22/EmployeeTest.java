@@ -6,7 +6,9 @@ public class EmployeeTest {
 		
 		ScrumTeam obj1 = new ScrumTeam();
 		obj1.salary = 70000;
+		obj1.fullName="John Doe";
 		obj1.ceremonies = "Scrum meetings";
+		//obj1.ssn-not visible because access modifier is set as private from Employee class
 		obj1.getPaid();
 		obj1.attendsMeetings();
 		obj1.work();
