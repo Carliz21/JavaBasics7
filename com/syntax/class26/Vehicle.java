@@ -25,6 +25,12 @@ public abstract class Vehicle {
 	public abstract void start();
 
 	public abstract void openTrunk();
+	
+	// can we make abstract method as static?  NO
+	
+	// can we make abstract class as final? NO
+	
+	// can we make abstract class as private? NO
 
 }
 
