@@ -10,12 +10,12 @@ public class RemovingElementsFromCollection {
 		// Create an ArrayList of city names
 
 		ArrayList<String> cities = new ArrayList<>();
-		cities.add("Kyiv");
-		cities.add("LA");
-		cities.add("LA");
-		cities.add("Istanbul");
-		cities.add("DC");
 		cities.add("New York City");
+		cities.add("Kyiv");
+		cities.add("DC");
+		cities.add("Istanbul");
+		
+	
 
 		System.out.println("Original ArrayList ===" + cities);
 		// Remove cities LA, DC
@@ -26,6 +26,7 @@ public class RemovingElementsFromCollection {
 				cities.remove(i);
 			}
 		}
+		
 		System.out.println("After removing == " + cities);
 
 		System.out.println("----Removing objects using enhanced for loop----");
@@ -45,12 +46,24 @@ public class RemovingElementsFromCollection {
 		cities.add("LA");
 
 		cities.add("Miami");
+		
+		cities.add("Miami");
+		
+		cities.add("Miami");
+		
+		cities.add("Miami");
+		
+		cities.add("Moscow");
+		
+		
 
 		System.out.println(cities);
 
 		Iterator<String> citiesIT = cities.iterator();
+		// Lets remove New York City and LA objects
 		while (citiesIT.hasNext()) {
-			if (citiesIT.next().equals("LA")) {
+			String ci=citiesIT.next();
+			if (ci.equals("LA") || ci.equals("New York City ")) {
 				citiesIT.remove();
 			}
 		}
